@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		679D765E8E0FC2AE2F0671AE /* Pods_Request_Codable_Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349FB3F0069EE7BD2566A05B /* Pods_Request_Codable_Alamofire.framework */; };
+		CA0B8DEC247FB04200FDB176 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B8DEB247FB04200FDB176 /* DetailsViewController.swift */; };
+		CA0B8DF6247FD8C700FDB176 /* RepoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B8DF5247FD8C700FDB176 /* RepoService.swift */; };
+		CA0B8DF82482987F00FDB176 /* CharacterDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B8DF72482987F00FDB176 /* CharacterDataWrapper.swift */; };
+		CA0B8DFA2482989A00FDB176 /* CharacterDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B8DF92482989A00FDB176 /* CharacterDataContainer.swift */; };
+		CA0B8DFC248298B000FDB176 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B8DFB248298B000FDB176 /* Character.swift */; };
+		CA0B8DFE2482999500FDB176 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B8DFD2482999500FDB176 /* Image.swift */; };
+		CA0B8E0524829C8000FDB176 /* MainCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B8E0424829C8000FDB176 /* MainCharacterTableViewCell.swift */; };
+		CA0B8E082482BC0200FDB176 /* Rounded+shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B8E072482BC0200FDB176 /* Rounded+shadow.swift */; };
+		CA0B8E0A2482CDF600FDB176 /* Rounded+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B8E092482CDF600FDB176 /* Rounded+Image.swift */; };
+		CA0B8E0E2482D72900FDB176 /* MarvelRegular-Dj83.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA0B8E0D2482D72900FDB176 /* MarvelRegular-Dj83.ttf */; };
 		CAD208AF247F877700D6FFF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD208AE247F877700D6FFF9 /* AppDelegate.swift */; };
 		CAD208B1247F877700D6FFF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD208B0247F877700D6FFF9 /* SceneDelegate.swift */; };
-		CAD208B3247F877700D6FFF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD208B2247F877700D6FFF9 /* ViewController.swift */; };
+		CAD208B3247F877700D6FFF9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD208B2247F877700D6FFF9 /* MainViewController.swift */; };
 		CAD208B6247F877700D6FFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD208B4247F877700D6FFF9 /* Main.storyboard */; };
 		CAD208B8247F877900D6FFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD208B7247F877900D6FFF9 /* Assets.xcassets */; };
 		CAD208BB247F877900D6FFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD208B9247F877900D6FFF9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B93C08958BB55A7500C7B6E /* Pods-Request Codable Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Request Codable Alamofire.release.xcconfig"; path = "Target Support Files/Pods-Request Codable Alamofire/Pods-Request Codable Alamofire.release.xcconfig"; sourceTree = "<group>"; };
+		349FB3F0069EE7BD2566A05B /* Pods_Request_Codable_Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Request_Codable_Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0B8DEB247FB04200FDB176 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CA0B8DF5247FD8C700FDB176 /* RepoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoService.swift; sourceTree = "<group>"; };
+		CA0B8DF72482987F00FDB176 /* CharacterDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataWrapper.swift; sourceTree = "<group>"; };
+		CA0B8DF92482989A00FDB176 /* CharacterDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataContainer.swift; sourceTree = "<group>"; };
+		CA0B8DFB248298B000FDB176 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CA0B8DFD2482999500FDB176 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		CA0B8E0424829C8000FDB176 /* MainCharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCharacterTableViewCell.swift; sourceTree = "<group>"; };
+		CA0B8E072482BC0200FDB176 /* Rounded+shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rounded+shadow.swift"; sourceTree = "<group>"; };
+		CA0B8E092482CDF600FDB176 /* Rounded+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rounded+Image.swift"; sourceTree = "<group>"; };
+		CA0B8E0D2482D72900FDB176 /* MarvelRegular-Dj83.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarvelRegular-Dj83.ttf"; sourceTree = "<group>"; };
 		CAD208AB247F877700D6FFF9 /* Request Codable Alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Request Codable Alamofire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD208AE247F877700D6FFF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD208B0247F877700D6FFF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CAD208B2247F877700D6FFF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD208B2247F877700D6FFF9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CAD208B5247F877700D6FFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAD208B7247F877900D6FFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD208BA247F877900D6FFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAD208BC247F877900D6FFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D124AE70267EA3D7AA4269BC /* Pods-Request Codable Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Request Codable Alamofire.debug.xcconfig"; path = "Target Support Files/Pods-Request Codable Alamofire/Pods-Request Codable Alamofire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679D765E8E0FC2AE2F0671AE /* Pods_Request_Codable_Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AA13F1F79C1630E58B3A3E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D124AE70267EA3D7AA4269BC /* Pods-Request Codable Alamofire.debug.xcconfig */,
+				2B93C08958BB55A7500C7B6E /* Pods-Request Codable Alamofire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA0B8DE6247FAE8100FDB176 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAD208B2247F877700D6FFF9 /* MainViewController.swift */,
+				CA0B8DEB247FB04200FDB176 /* DetailsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CA0B8DE7247FAE9100FDB176 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B8DF5247FD8C700FDB176 /* RepoService.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		CA0B8DE8247FAEA400FDB176 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B8DF72482987F00FDB176 /* CharacterDataWrapper.swift */,
+				CA0B8DF92482989A00FDB176 /* CharacterDataContainer.swift */,
+				CA0B8DFB248298B000FDB176 /* Character.swift */,
+				CA0B8DFD2482999500FDB176 /* Image.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CA0B8DFF24829B2D00FDB176 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B8E0424829C8000FDB176 /* MainCharacterTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		CA0B8E062482BBE100FDB176 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B8E072482BC0200FDB176 /* Rounded+shadow.swift */,
+				CA0B8E092482CDF600FDB176 /* Rounded+Image.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CA0B8E0B2482D71000FDB176 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B8E0C2482D71900FDB176 /* Fonts */,
+			);
+			name = Resourses;
+			sourceTree = "<group>";
+		};
+		CA0B8E0C2482D71900FDB176 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B8E0D2482D72900FDB176 /* MarvelRegular-Dj83.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		CAD208A2247F877700D6FFF9 = {
 			isa = PBXGroup;
 			children = (
 				CAD208AD247F877700D6FFF9 /* Request Codable Alamofire */,
 				CAD208AC247F877700D6FFF9 /* Products */,
+				2AA13F1F79C1630E58B3A3E5 /* Pods */,
+				D5B4449E1DB4759B906DAB9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +153,28 @@
 		CAD208AD247F877700D6FFF9 /* Request Codable Alamofire */ = {
 			isa = PBXGroup;
 			children = (
+				CA0B8E0B2482D71000FDB176 /* Resourses */,
+				CA0B8E062482BBE100FDB176 /* View */,
+				CA0B8DFF24829B2D00FDB176 /* Cell */,
+				CA0B8DE8247FAEA400FDB176 /* Model */,
+				CA0B8DE7247FAE9100FDB176 /* Network */,
+				CA0B8DE6247FAE8100FDB176 /* Controllers */,
 				CAD208AE247F877700D6FFF9 /* AppDelegate.swift */,
 				CAD208B0247F877700D6FFF9 /* SceneDelegate.swift */,
-				CAD208B2247F877700D6FFF9 /* ViewController.swift */,
 				CAD208B4247F877700D6FFF9 /* Main.storyboard */,
 				CAD208B7247F877900D6FFF9 /* Assets.xcassets */,
 				CAD208B9247F877900D6FFF9 /* LaunchScreen.storyboard */,
 				CAD208BC247F877900D6FFF9 /* Info.plist */,
 			);
 			path = "Request Codable Alamofire";
+			sourceTree = "<group>";
+		};
+		D5B4449E1DB4759B906DAB9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				349FB3F0069EE7BD2566A05B /* Pods_Request_Codable_Alamofire.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAD208BF247F877900D6FFF9 /* Build configuration list for PBXNativeTarget "Request Codable Alamofire" */;
 			buildPhases = (
+				638C1538BBC11FD16988DAF0 /* [CP] Check Pods Manifest.lock */,
 				CAD208A7247F877700D6FFF9 /* Sources */,
 				CAD208A8247F877700D6FFF9 /* Frameworks */,
 				CAD208A9247F877700D6FFF9 /* Resources */,
+				4898E433D62646FCDECC9178 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAD208BB247F877900D6FFF9 /* LaunchScreen.storyboard in Resources */,
+				CA0B8E0E2482D72900FDB176 /* MarvelRegular-Dj83.ttf in Resources */,
 				CAD208B8247F877900D6FFF9 /* Assets.xcassets in Resources */,
 				CAD208B6247F877700D6FFF9 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +246,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4898E433D62646FCDECC9178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Request Codable Alamofire/Pods-Request Codable Alamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Request Codable Alamofire/Pods-Request Codable Alamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Request Codable Alamofire/Pods-Request Codable Alamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		638C1538BBC11FD16988DAF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Request Codable Alamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAD208A7247F877700D6FFF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD208B3247F877700D6FFF9 /* ViewController.swift in Sources */,
+				CAD208B3247F877700D6FFF9 /* MainViewController.swift in Sources */,
+				CA0B8DFE2482999500FDB176 /* Image.swift in Sources */,
 				CAD208AF247F877700D6FFF9 /* AppDelegate.swift in Sources */,
 				CAD208B1247F877700D6FFF9 /* SceneDelegate.swift in Sources */,
+				CA0B8DF82482987F00FDB176 /* CharacterDataWrapper.swift in Sources */,
+				CA0B8E0A2482CDF600FDB176 /* Rounded+Image.swift in Sources */,
+				CA0B8DFA2482989A00FDB176 /* CharacterDataContainer.swift in Sources */,
+				CA0B8DEC247FB04200FDB176 /* DetailsViewController.swift in Sources */,
+				CA0B8DF6247FD8C700FDB176 /* RepoService.swift in Sources */,
+				CA0B8E0524829C8000FDB176 /* MainCharacterTableViewCell.swift in Sources */,
+				CA0B8DFC248298B000FDB176 /* Character.swift in Sources */,
+				CA0B8E082482BC0200FDB176 /* Rounded+shadow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +446,7 @@
 		};
 		CAD208C0247F877900D6FFF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D124AE70267EA3D7AA4269BC /* Pods-Request Codable Alamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +459,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.msapps.Request-Codable-Alamofire";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CAD208C1247F877900D6FFF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B93C08958BB55A7500C7B6E /* Pods-Request Codable Alamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.msapps.Request-Codable-Alamofire";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

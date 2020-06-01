@@ -22,21 +22,32 @@ class RepoService {
     enum ChareactersResult {
         case success([Character]), failure(Error)
     }
-
-    public func fetchFilms(completion: @escaping (ChareactersResult) -> Void ) {
+    public func fetchFilms(nameStarts: String, completion: @escaping (ChareactersResult) -> Void ) {
 
         let timestamp = Date().toMillis()!
 
         let d = "\(timestamp)\(privateKey)\(apiKey)"
         let hash = d.md5
-        
 
-        let parameters: Parameters = [
-            "apikey": apiKey,
-            "ts": timestamp,
-            "hash": hash,
-            "limit": "50"
-        ]
+        let parameters: Parameters
+
+        if nameStarts == "" {
+            parameters = [
+                "apikey": apiKey,
+                "ts": timestamp,
+                "hash": hash,
+                "limit": "20"
+            ]
+        } else {
+            parameters = [
+                "apikey": apiKey,
+                "ts": timestamp,
+                "hash": hash,
+                "limit": "20",
+                "nameStartsWith": nameStarts
+            ]
+        }
+
 
 
         let request = AF.request(baseURL, parameters: parameters)

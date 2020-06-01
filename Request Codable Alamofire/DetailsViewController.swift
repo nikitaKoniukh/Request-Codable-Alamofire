@@ -8,35 +8,44 @@
 
 import UIKit
 import Alamofire
+import SDWebImage
 
 class DetailsViewController: UIViewController {
 
     // Outlets
-    @IBOutlet weak var repoNameLabel: UILabel!
-    @IBOutlet weak var repoDescriptionLabel: UILabel!
-    @IBOutlet weak var repoLanguageLabel: UILabel!
-    @IBOutlet weak var listTableView: UITableView!
+    @IBOutlet weak var characterImage: UIImageView!
+    @IBOutlet weak var characterNameLabel: UILabel!
+    @IBOutlet weak var characterDescriptionLabel: UILabel!
+
 
     // Properties
-//    var data: Repo?
-//    var listData: [Contributor] = []
+    var character: Character?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        listTableView.delegate = self
-//        listTableView.dataSource = self
-//        commonInit()
-//        fetchList()
+        commonInit()
     }
+
+    private func commonInit() {
+        guard let character = character,
+            let image = character.thumbnail
+            else { return }
+
+        characterNameLabel.text = character.name
+        characterNameLabel.text =  characterNameLabel.text?.uppercased()
+
+        if image.path == "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available" {
+            characterImage.contentMode = .scaleToFill
+        } else {
+            characterImage.contentMode = .scaleAspectFill
+        }
+        characterImage.sd_setImage(with: image.url)
+        characterDescriptionLabel.text = character.description
+    }
+
 }
 
-//    private func commonInit() {
-//        guard let data = data else { return }
-//
-//        repoNameLabel.text = data.name
-//        repoDescriptionLabel.text = data.descr
-//        repoLanguageLabel.text = data.language
-//    }
+
 //
 //
 //    func fetchList() {
